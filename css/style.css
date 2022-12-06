@@ -7,7 +7,7 @@
 	padding: 10px 0;
 
 	/* debug */
-	background-color: #3161e1;
+	background-color: #255ee9;
 }
 
 .header-nav {
@@ -61,22 +61,29 @@ a{
 /* JUMBOTRON */
 
 .jumbotron {
-	padding: 50px 0;
+	padding: 150px 0;
 	display: flex;
 	justify-content: center;
-
-
-	/* debug */
-	background-color: darkblue;
+	background-image: url(../img/jumbo.png);
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .jumbotron .content {
 	min-height: 400px;
-	width: 50%;
+	width: 40%;
+	color: white;
+}
 
-	/* debug */
-	background-color: #ee82ee;
-	border: 2px dashed black;
+.content > h1{
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.content > p{
+	font-size: 22px;
+	text-align: center;
 }
 
 /* MAIN & SECTIONS */
