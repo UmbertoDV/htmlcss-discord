@@ -7,7 +7,7 @@
 	padding: 10px 0;
 
 	/* debug */
-	background-color: lightblue;
+	background-color: #3161e1;
 }
 
 .header-nav {
@@ -23,10 +23,6 @@
 .header-nav>* {
 	flex-basis: 20%;
 	padding: 5px 10px;
-
-	/* debug */
-	background-color: goldenrod;
-	border: 2px dashed black;
 }
 
 ul{
@@ -38,7 +34,7 @@ ul > li {
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 0 20px;
 }
 .header-links{
@@ -48,8 +44,13 @@ a{
 	align-items: center;
 }
 
-.header-login {
-	text-align: right;
+.header-login{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-login > button {
+
 }
 
 /* JUMBOTRON */
