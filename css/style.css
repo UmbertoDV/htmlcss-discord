@@ -78,6 +78,7 @@ a{
 
 .content > h1{
 	font-size: 50px;
+	font-weight: bold;
 	text-align: center;
 	margin-bottom: 100px;
 }
@@ -109,28 +110,58 @@ main>section>.container {
 
 .main-col {
 	flex-grow: 2;
-
-	/* debug */
-	background-color: cornflowerblue;
-	border: 2px dashed black;
+	flex-basis: 0;
 }
 
 .side-col {
 	flex-grow: 1;
-
-	/* debug */
-	background-color: pink;
-	border: 2px dashed black;
+	flex-basis: 0;
+	text-align: left;
+}
+.side-col > h1{
+	font-weight: bold;
+	font-size: 50px;
+	margin: 0 40px;
+	padding: 20px 0;
+}
+.side-col > p{
+	font-size: 20px;
+	margin: 0 40px;
 }
 
 .hilighted-content {
 	flex-grow: 1;
-
-	/* debug */
-	min-height: 800px;
-	background-color: forestgreen;
-	border: 2px dashed black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center
 }
+.hilighted-content > h1{
+	font-weight: bold;
+	font-size: 50px;
+	padding: 20px 0;
+	text-align: center;
+}
+.hilighted-content > p{
+	font-size: 20px;
+	margin: 0 40px;
+	text-align: center;
+}
+.hilighted-content > div{
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+}
+.hilighted-content > button{
+	color: white;
+	background-color: #8ea2e1;
+	padding: 10px 30px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #8ea2e1;
+	margin-top: 20px;
+}
+
 
 /* FOOTER */
 
