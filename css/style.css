@@ -204,25 +204,27 @@ main>section>.container {
 .footer-product{
 	padding: 0 40px;
 }
+.footer-product > ul > li{
+	padding-bottom: 25px;
+}
+.footer-product > ul > li > a{
+	color: white;
+	text-decoration: none;
+}
+
 .footer-side-col {
 	display: flex;
 	width: calc(100% / 3 * 2);
-
-	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
 }
 .footer-col > h1{
 	margin: 20px  0 20px 40px;
 	color: #7188d6;
+	font-weight: bold;
 }
 
 .footer-col {
+	margin-top: 15px;
 	width: 25%;
-
-	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
 }
 
 .footer-bottom {
