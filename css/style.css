@@ -1,0 +1,166 @@
+/* HEADER */
+
+.header-head {
+	display: flex;
+	align-items: center;
+	min-height: 80px;
+	padding: 10px 0;
+
+	/* debug */
+	background-color: lightblue;
+}
+
+.header-nav {
+	display: flex;
+	flex-grow: 1;
+	line-height: 30px;
+}
+
+.header-nav>* {
+	flex-basis: 20%;
+	padding: 5px 10px;
+
+	/* debug */
+	background-color: goldenrod;
+	border: 2px dashed black;
+}
+
+.header-links {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.header-login {
+	text-align: right;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+
+
+	/* debug */
+	background-color: darkblue;
+}
+
+.jumbotron .content {
+	min-height: 400px;
+	width: 50%;
+
+	/* debug */
+	background-color: #ee82ee;
+	border: 2px dashed black;
+}
+
+/* MAIN & SECTIONS */
+
+main>section {
+	padding: 50px 0;
+}
+
+main>section>.container {
+	display: flex;
+
+	/* debug */
+	min-height: 500px;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.bg-gray {
+	background-color: lightgray;
+}
+
+.main-col {
+	flex-grow: 2;
+
+	/* debug */
+	background-color: cornflowerblue;
+	border: 2px dashed black;
+}
+
+.side-col {
+	flex-grow: 1;
+
+	/* debug */
+	background-color: pink;
+	border: 2px dashed black;
+}
+
+.hilighted-content {
+	flex-grow: 1;
+
+	/* debug */
+	min-height: 800px;
+	background-color: forestgreen;
+	border: 2px dashed black;
+}
+
+/* FOOTER */
+
+.footer-main {
+	padding-top: 10px;
+
+
+	/* debug */
+	background-color: #23272a;
+}
+
+.footer-upper {
+	display: flex;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid purple;
+
+	/* debug */
+	min-height: 500px;
+}
+
+.footer-main-col {
+	width: calc(100% / 3);
+
+	/* debug */
+	background-color: #f08080;
+	border: 2px dashed black;
+}
+
+.footer-side-col {
+	display: flex;
+	width: calc(100% / 3 * 2);
+
+	/* debug */
+	background-color: #20b2aa;
+	border: 2px dashed black;
+}
+
+.footer-col {
+	width: 25%;
+
+	/* debug */
+	background-color: #20b2aa;
+	border: 2px dashed white;
+}
+
+.footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 80px;
+
+	/* debug */
+	background-color: #7fffd4;
+}
+
+.footer-bottom>* {
+	padding: 5px 10px;
+
+
+	/* debug */
+	background-color: #ffb6c1;
+	border: 2px dashed black;
+}
