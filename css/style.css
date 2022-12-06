@@ -16,6 +16,10 @@
 	line-height: 30px;
 }
 
+.header-nav.container > div > img{
+	display: flex;
+}
+
 .header-nav>* {
 	flex-basis: 20%;
 	padding: 5px 10px;
@@ -25,9 +29,23 @@
 	border: 2px dashed black;
 }
 
-.header-links {
-	flex-grow: 1;
-	text-align: center;
+ul{
+    list-style: none;
+}
+ul > li {
+    display: inline-block;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+}
+.header-links{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+	align-items: center;
 }
 
 .header-login {
