@@ -1,5 +1,4 @@
 /* HEADER */
-
 body{
 	font-family: 'Fredoka', sans-serif;
 }
@@ -58,7 +57,6 @@ ul{
 	border-style: solid;
 	border-color: white;
 }
-
 /* JUMBOTRON */
 
 .jumbotron {
@@ -170,11 +168,8 @@ main>section>.container {
 .footer-upper {
 	display: flex;
 	padding-bottom: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	border-bottom: 2px solid purple;
-
-	/* debug */
-	min-height: 500px;
 }
 
 .footer-main-col {
@@ -231,17 +226,17 @@ main>section>.container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	min-height: 80px;
-
-	/* debug */
-	background-color: #7fffd4;
 }
 
-.footer-bottom>* {
-	padding: 5px 10px;
+.footer-bottom > div > button{
+	color: white;
+	background-color: #8ea2e1;
+	padding: 10px 30px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #8ea2e1;
+}
 
-
-	/* debug */
-	background-color: #ffb6c1;
-	border: 2px dashed black;
+.footer-bottom > * {
+	padding: 5px 0px 20px 0px;
 }
